@@ -11,7 +11,7 @@ body {
 header{
   color: #fff;
   text-align: center;
-  background-image: url(/img/body-back.jpg);
+  background-image: url("/img/body-back.jpg";
   width: 100%;
   padding: 75px;
 }
