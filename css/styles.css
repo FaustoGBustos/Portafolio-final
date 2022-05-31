@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header{
+  color: #fff;
+  text-align: center;
+  background-image: url(/img/body-back.jpg);
+  width: 100%;
+  padding: 75px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+.brand h2{
+  color: #fff;
+}
+.menu{
+  display:flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+}
+.menu a{
+  color:#fff;
+  text-decoration: none;
+}
+.menu a:hover{
+  background-color: #fff;
+  color: black;
+  border-radius: 20px;
+  padding: 4px;
+  transition: 0.5s;
+}
+.menu li{
+  font-size: medium;
+}
+.navbar{
+  border: #fff solid 2px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+h1{
+  font-size: 3em ;
+}
+li a{
+  font-size: 20px;
+  font-weight:bold;
+}
+.main{
+  padding: 5rem 1rem 1rem 1rem;
+  background-color: rgba(104, 84, 84, 0.479);
+  height: auto;
+}
+#content{
+  text-align: center;
+  width: auto;
+}
+#content p{
+  font-size: 40px;
+}
+#content h1{
+  font-size: 50px;
+}
+.video{
+  margin: 25px;
+}
+#contenido{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-image: url("https://fondosmil.com/fondo/12595.jpg");
+  width: auto;
+  color: #fff;
+  padding-top: 40px;
+  padding: 40px;
+}
+#contenido .proyecto{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  width: 300px;
+  height: 500px;
+  border: solid 10px #fff;
+  margin-top: 120px;
+}
+.proyecto img{
+  width: 280px;
+  height: 250px;
+}
+
+.proyecto:hover{
+  transform: translateY(-3%);
+}
+#contenido h4{
+  text-align: center;
+}
+#contenido p{
+  text-align: center;
+  margin-top: 40px;
+  font-weight:bold;
+  color: #000;
+}
+#contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(104, 84, 84, 0.479);
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+#contact h2{
+  font-size: 100px;
+  font-weight: 100 bold;
+  color: #000;
+  padding: 25px;
+}
+
+.formulario{
+  padding: 40px;
+  border: #000 solid ;
+  width: 500px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+.formulario h3{
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+}
+.formulario input{
+  width: 100%;
+  height: 40px;
+  padding: 30px;
+  margin: 4px;
+}
+.aside{
+  padding: 2%;
+  color: #fff;
+  width: 30%;
+  padding-top: 200px;
+}
+.cv{
+ text-align: center;
+ margin-top: 30px;
+}
+.cv h3{
+  font-size: 50px;
+  font-weight: 100 bold;
+}
+.cv button{
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  color: #fff;
+  border: #fff solid;
+  clear: both;
+}
+footer ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer img{
+   width: 35px;
+   height: 35px;
+  }
