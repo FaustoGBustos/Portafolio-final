@@ -11,8 +11,7 @@ body {
 header{
   color: #fff;
   text-align: center;
-  background-image: url("img/body-back.jpg");
-  width: 100%;
+  background-image: url("https://www.softzone.es/app/uploads-softzone.es/2021/05/Programar-en-IDE.jpg");
   padding: 75px;
 }
 .navbar{
